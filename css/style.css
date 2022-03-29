@@ -58,6 +58,7 @@ header .menu li {
 
 .banner .img-container {
     width: 50%;
+    max-width: 350px;
     margin: 0 auto;
 }
 
@@ -217,8 +218,9 @@ footer {
     background-color: red;
 }
 
-.footer-top div {
-    margin-bottom: 1.5rem;
+.footer-top .text {
+    margin-bottom: 1.5rem
+    ;
 }
 
 .footer-bottom {
