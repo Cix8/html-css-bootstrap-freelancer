@@ -201,14 +201,10 @@ header .menu li {
     border-bottom: 1px solid black;
 }
 
-.contact .btn-container {
-    display: inline-block;
+.contact .btn-container a{
     margin-top: .8rem;
-    padding: .5rem 1rem;
-    border: 2px solid transparent;
-    border-radius: 5px;
     background-color: green;
-    color: white;
+    border: transparent;
 }
 
 footer {
