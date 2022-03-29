@@ -9,6 +9,11 @@ a {
     color: inherit;
 }
 
+a:hover {
+    text-decoration: underline;
+    color: inherit;
+}
+
 img {
     width: 100%;
 }
@@ -66,11 +71,6 @@ header .menu li {
     margin-left: 1rem;
     color: white;
     font-weight: bold;
-}
-
-header li a:hover {
-    text-decoration: underline;
-    color: inherit;
 }
 
 .banner {
