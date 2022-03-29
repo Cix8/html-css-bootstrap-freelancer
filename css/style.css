@@ -248,17 +248,13 @@ footer {
     color: white;
 }
 
-.footer-top {
-    /* background-color: red; */
-}
-
-.footer-top .title {
-    
-}
-
 .footer-top .text,
 .footer-top .icons-container {
     margin-bottom: 1.5rem;
+}
+
+.footer-top .icons-container {
+    margin-top: .2rem;
 }
 
 .footer-top .icons-container li {
