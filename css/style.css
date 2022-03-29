@@ -211,3 +211,25 @@ header .menu li {
     color: white;
 }
 
+footer {
+    text-align: center;
+    padding: 3rem 0;
+    background-color: orange;
+}
+
+.footer-top {
+    background-color: red;
+}
+
+.footer-top div {
+    margin-bottom: 1.5rem;
+}
+
+.footer-bottom {
+    background-color: green;
+}
+
+.footer-bottom .copyright {
+    padding: 2rem 0;
+}
+
