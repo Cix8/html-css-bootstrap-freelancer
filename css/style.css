@@ -162,3 +162,44 @@ header .menu li {
     border: 2px solid white;
     border-radius: 5px;
 }
+
+.contact {
+    padding: 2rem 0;
+}
+
+.contact .title {
+    text-align: center;
+}
+
+.contact .star-container {
+    text-align: center;
+}
+
+.contact .star-container .bar {
+    border-color: black;
+    width: 10%;
+}
+
+.contact .star-container .star {
+    color: black;
+}
+
+.contact li {
+    width: 50%;
+    margin: 0 auto;
+    padding: 1rem 0;
+    border-bottom: 1px solid black;
+}
+
+.contact li.message {
+    padding-bottom: 8rem;
+}
+
+.contact .btn-container {
+    padding: .5rem 1rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: green;
+    color: white;
+}
+
