@@ -50,46 +50,115 @@ header .menu li {
     background-color: red;
 }
 
-.ms_banner {
+.banner {
     width: 100%;
     padding: 2rem 0;
     background-color: blue;
 }
 
-.img_container {
+.banner .img-container {
     width: 50%;
     margin: 0 auto;
 }
 
-.ms_banner .title,
-.ms_banner .star-container,
-.ms_banner .sub-title {
+.banner .title,
+.banner .star-container,
+.banner .sub-title {
     text-align: center;
     color: white;
     margin: 1rem 0;
     background-color: red;
 }
 
-.ms_banner .title h1 {
+.banner .title h1 {
     font-size: 2.5rem;
     margin-bottom: 0;
 }
 
-.ms_banner .star-container .bar {
+.star-container .bar {
     display: inline-block;
     width: 15%;
-    border-top: 5px solid white;
+    border-top: 5px solid transparent;
     border-radius: 10px;
     vertical-align: middle;
 }
 
-.ms_banner .star-container .star {
+.banner .star-container .bar {
+    border-color: white;
+}
+
+.star-container .star {
     display: inline-block;
     vertical-align: middle;
     margin: 0 .2rem;
     font-size: 1.8rem;
 }
 
-.ms_banner .sub-title {
+.banner .sub-title {
     font-size: 1.3rem;
+}
+
+.portfolio {
+    margin-bottom: 2rem;
+}
+
+.portfolio .title,
+.portfolio .star-container,
+.portfolio .sub-title {
+    text-align: center;
+    color: black;
+    margin: 1rem 0;
+    background-color: red;
+}
+
+.portfolio .star-container .bar {
+    border-color: black;
+}
+
+.portfolio .star-container .star {
+    color: black;
+}
+
+.portfolio .img-container {
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+}
+
+.about {
+    padding: 2rem 0;
+    color: white;
+    background-color: aquamarine;
+}
+
+.about .title {
+    text-align: center;
+    color: white;
+}
+
+.about .star-container {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.about .star-container .bar {
+    border-color: white;
+    width: 10%;
+}
+
+.about .text-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.about .btn-container {
+    text-align: center;
+}
+
+.btn-container a {
+    display: inline-block;
+    line-height: normal;
+    padding: .5rem 1rem;
+    border: 2px solid white;
+    border-radius: 5px;
 }
