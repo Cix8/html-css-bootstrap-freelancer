@@ -10,6 +10,10 @@ a {
     color: inherit;
 }
 
+img {
+    width: 100%;
+}
+
 header {
     width: 100%;
     height: 100px;
@@ -25,7 +29,7 @@ header .title {
     background-color: green;
 }
 
-header h1 {
+header h2 {
     margin-bottom: 0;
 }
 
@@ -44,4 +48,48 @@ header .menu li {
     margin-left: 1rem;
     color: white;
     background-color: red;
+}
+
+.ms_banner {
+    width: 100%;
+    padding: 2rem 0;
+    background-color: blue;
+}
+
+.img_container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.ms_banner .title,
+.ms_banner .star-container,
+.ms_banner .sub-title {
+    text-align: center;
+    color: white;
+    margin: 1rem 0;
+    background-color: red;
+}
+
+.ms_banner .title h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.ms_banner .star-container .bar {
+    display: inline-block;
+    width: 15%;
+    border-top: 5px solid white;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+
+.ms_banner .star-container .star {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 .2rem;
+    font-size: 1.8rem;
+}
+
+.ms_banner .sub-title {
+    font-size: 1.3rem;
 }
