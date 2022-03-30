@@ -1,7 +1,4 @@
-label {
-    padding-left: 0;
-}
-
+/* COMMON */
 ul {
     list-style: none;
     padding-left: 0;
@@ -22,6 +19,11 @@ img {
     width: 100%;
 }
 
+label {
+    padding-left: 0;
+}
+
+/* HEADER */
 header {
     position: relative;
     width: 100%;
@@ -81,6 +83,7 @@ header .menu li:first-child {
     margin-left: 0;
 }
 
+/* BANNER */
 .banner {
     width: 100%;
     padding: 2rem 0;
@@ -129,6 +132,7 @@ header .menu li:first-child {
     font-size: 1.3rem;
 }
 
+/* PORTFOLIO */
 .portfolio {
     margin-bottom: 2rem;
 }
@@ -178,6 +182,7 @@ header .menu li:first-child {
     cursor: pointer;
 }
 
+/* ABOUT */
 .about {
     padding: 2rem 0;
     color: white;
@@ -209,6 +214,7 @@ header .menu li:first-child {
     text-align: center;
 }
 
+/* CONTACT */
 .contact {
     padding: 2rem 0;
 }
@@ -253,6 +259,7 @@ header .menu li:first-child {
     background-color: #1abc9c;
 }
 
+/* FOOTER */
 footer {
     text-align: center;
     background-color: #3a546d;
