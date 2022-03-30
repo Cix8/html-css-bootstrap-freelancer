@@ -173,7 +173,8 @@ header .menu li:first-child {
 }
 
 .about .text-container {
-    width: 50%;
+    width: 60%;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -212,6 +213,7 @@ header .menu li:first-child {
 
 .contact li {
     width: 50%;
+    max-width: 1200px;
     margin: 0 auto;
     padding: 1rem 0;
     border-bottom: 1px solid black;
@@ -243,14 +245,12 @@ header .menu li:first-child {
 
 footer {
     text-align: center;
-    padding: 3rem 0 0 0;
     background-color: #3a546d;
     color: white;
 }
 
-.footer-top .text,
-.footer-top .icons-container {
-    margin-bottom: 1.5rem;
+.footer-top {
+    padding: 3rem 0;
 }
 
 .footer-top .icons-container {
