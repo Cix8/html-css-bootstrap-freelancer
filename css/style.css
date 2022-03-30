@@ -1,3 +1,30 @@
+.form-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.form-container .form-control {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    border-color: black;
+    box-shadow: none;
+}
+
+.text-box {
+    padding-top: 1rem;
+}
+
+.form-container .btn-success {
+    border: 0;
+    background-color: #1abc9c;
+}
+
+label {
+    padding-left: 0;
+}
+
 ul {
     list-style: none;
     padding-left: 0;
@@ -211,38 +238,6 @@ header .menu li:first-child {
     color: black;
 }
 
-.contact li {
-    width: 50%;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 1rem 0;
-    border-bottom: 1px solid black;
-}
-
-.contact li.message {
-    border-bottom: 0;
-}
-
-.contact .message-text {
-    position: relative;
-    width: 100%;
-    height: 200px;
-    border-bottom: 1px solid black;
-}
-
-.contact .message-text .icons-container {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-.contact .btn-container a{
-    margin-top: .8rem;
-    background-color: #1abc9c;
-    border: transparent;
-    color: white;
-}
-
 footer {
     text-align: center;
     background-color: #3a546d;
@@ -273,7 +268,7 @@ footer {
     margin-left: 0;
 }
 
-.footer-top .text span {
+.footer-top .text a {
     color: #1abc9c;
 }
 
