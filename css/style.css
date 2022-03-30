@@ -64,7 +64,7 @@ header .sub-menu li {
     margin-bottom: .3rem;
 }
 
-header .icons-container:hover .sub-menu {
+header .icons-container .sub-menu:target {
     display: inline-block;
 }
 
